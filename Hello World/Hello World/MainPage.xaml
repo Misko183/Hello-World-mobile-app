@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hello_World.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DeepPink" Padding="24" CornerRadius="0">
+            <Label Text="Vitaj na Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Klikni ma" Clicked="Handle_Clicked" />
+        <Label Text="Programuj už teraz" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Urob zmeny v XAML súbore a ulož to aby si videl tvoj UI progress v tvoje bežiacej aplikácií s XAML Hot Reload. Skús to!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Nauč sa viac na "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
